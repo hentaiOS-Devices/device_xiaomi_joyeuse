@@ -552,4 +552,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/curtana/curtana-vendor.mk)
+$(call inherit-product, vendor/xiaomi/joyeuse/joyeuse-vendor.mk)

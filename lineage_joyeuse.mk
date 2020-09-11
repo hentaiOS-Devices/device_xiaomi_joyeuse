@@ -21,18 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from curtana device
+# Inherit from joyeuse device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := curtana
+PRODUCT_DEVICE := joyeuse
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_curtana
-PRODUCT_MODEL := Redmi Note 9s
+PRODUCT_NAME := lineage_joyeuse
+PRODUCT_MODEL := Redmi Note 9 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := curtana
+TARGET_VENDOR_PRODUCT_NAME := joyeuse
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="curtana-user 10 QKQ1.191215.002 V11.0.9.0.QJWMIXM release-keys"

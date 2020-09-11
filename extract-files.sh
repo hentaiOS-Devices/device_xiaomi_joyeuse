@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=curtana
+export DEVICE=joyeuse
 export VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

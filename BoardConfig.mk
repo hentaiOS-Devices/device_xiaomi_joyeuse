@@ -22,12 +22,12 @@
 # definition file).
 #
 
-DEVICE_PATH := device/xiaomi/curtana
+DEVICE_PATH := device/xiaomi/joyeuse
 
 BOARD_VENDOR := xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
+TARGET_OTA_ASSERT_DEVICE := joyeuse
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := atoll
@@ -252,4 +252,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
--include vendor/xiaomi/curtana/BoardConfigVendor.mk
+-include vendor/xiaomi/joyeuse/BoardConfigVendor.mk
