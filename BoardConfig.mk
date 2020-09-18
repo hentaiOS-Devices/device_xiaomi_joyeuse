@@ -10,7 +10,7 @@ include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 # Inherit proprietary blobs
 -include vendor/xiaomi/miatoll/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/miatoll
+DEVICE_PATH := device/xiaomi/joyeuse
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := miatoll
@@ -26,4 +26,4 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest_joyeuse.xml
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
+TARGET_OTA_ASSERT_DEVICE := joyeuse
